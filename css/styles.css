@@ -97,7 +97,7 @@ img {
 
 .header-contacts {
     display: flex;
-    column-gap: 50px;
+    column-gap: 30px;
 }
 
 /* logo */
@@ -143,19 +143,39 @@ img {
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
+
+    display: inline-flex;
+    align-items: center;
+    column-gap: 10px;
+    fill: var(--secondary-text-color);
 }
 
 .contacts:hover,
 .contacts:focus {
     color: var(--accent-color);
+    fill: var(--accent-color);
 }
 
 /* hero */
 .hero-section {
-    background-color: var(--accent-bg-color);
+    background-color: #C4C4C4;
     
     padding-top: 200px;
     padding-bottom: 200px;
+}
+
+.overlay {
+    max-width: 1600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image:
+        linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url("../images/hero.jpg");
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .hero-title {
@@ -231,6 +251,16 @@ img {
 
 .features-item {
     flex-basis: calc((100% - 90px) / 4);
+}
+
+.features-icon {
+    display: flex;
+    height: 120px;
+    background-color: var(--secondary-bg-color);
+    border-radius: 4px;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: center;
 }
 
 .features-title {
