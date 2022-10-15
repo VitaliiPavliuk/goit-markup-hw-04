@@ -403,7 +403,6 @@ img {
     letter-spacing: 0.03em;
 
     font-style: normal;
-    
 }
 
 .contacts-footer:hover,
@@ -434,6 +433,38 @@ img {
 
 .address-item {
     margin-bottom: 9px;
+}
+
+.social-media-footer {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    fill: var(--white-text-color);
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.social-media-footer:hover {
+    background-color: var(--accent-color);
+}
+
+.container-footer {
+    display: flex;
+    column-gap: 70px;
+}
+
+.footer-join {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--white-text-color);
+
+    margin-bottom: 20px;
+    margin-top: 12px;
 }
 
 /* portfolio.html */
