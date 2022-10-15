@@ -363,6 +363,30 @@ img {
     fill: var(--white-text-color);
 }
 
+/* clients */
+
+.clients-list {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.client {
+    display: flex;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    fill: #AFB1B8;
+}
+
+.client:hover {
+    border-color: var(--accent-color);
+    fill: var(--accent-color);
+}
+
 /* footer */
 
 .footer {
