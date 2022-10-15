@@ -319,6 +319,8 @@ img {
 .team-member-role {
     padding-top: 30px;
     padding-bottom: 30px;
+    padding-left: 32px;
+    padding-right: 32px;
 }
 
 .team-member {
@@ -337,7 +339,29 @@ img {
     text-align: center;
     color: var(--secondary-text-color);
     letter-spacing: 0.03em;
-} 
+
+    margin-bottom: 16px;
+}
+
+.social-list {
+    display: flex;
+    column-gap: 10px;
+}
+
+.social-media {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    fill: #AFB1B8;
+}
+
+.social-media:hover {
+    background-color: var(--accent-color);
+    fill: var(--white-text-color);
+}
 
 /* footer */
 
